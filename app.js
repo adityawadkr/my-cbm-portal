@@ -1,3 +1,10 @@
+@app.after_request
+def add_cors_headers(response):
+    response.headers.add('Access-Control-Allow-Origin', 'https://adityawadkr.github.io')
+    response.headers.add('Access-Control-Allow-Headers', 'Content-Type')
+    return response
+
+
 function uploadFile() {
   const fileInput = document.getElementById('file-input');
   const file = fileInput.files[0];
