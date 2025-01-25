@@ -1,3 +1,3 @@
 const config = {
-    backendUrl: "https://yourusername.pythonanywhere.com/upload"
+    backendUrl: "https://awwditya.pythonanywhere.com/upload"
 };
